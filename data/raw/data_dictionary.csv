@@ -1,0 +1,20 @@
+column,description
+date,Observation date
+transaction_volume,Synthetic daily transaction count
+transaction_value_usd,Synthetic total transaction value in USD
+avg_transaction_value,Average transaction value
+digital_transaction_share,Synthetic digital transaction share
+international_transaction_share,Synthetic international transaction share
+fed_funds_rate,Macro-style federal funds rate
+inflation_rate,Macro-style inflation rate (%)
+unemployment_rate,Macro-style unemployment rate (%)
+vix,Market volatility index-like feature
+sp500_index,S&P 500 index-like feature
+day_of_week,"Day of week, Monday=0"
+month,Month number
+quarter,Quarter number
+is_weekend,Weekend flag
+is_month_end,Month-end flag
+is_quarter_end,Quarter-end flag
+is_holiday,Holiday flag
+target_next_day_volume,Next-day transaction volume prediction target

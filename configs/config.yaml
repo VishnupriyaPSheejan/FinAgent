@@ -1,0 +1,17 @@
+data:
+  path: data/raw/transactions.csv
+  target: target_next_day_volume
+
+model:
+  random_state: 42
+  n_estimators: 500
+  max_depth: 6
+  learning_rate: 0.05
+  subsample: 0.9
+  colsample_bytree: 0.9
+
+split:
+  test_size: 0.2
+
+artifacts:
+  model_path: models/finagent_xgb.joblib
